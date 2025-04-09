@@ -1,8 +1,17 @@
-import React from 'react';
+
+import React, { useEffect } from 'react';
+import { supabase } from './supabaseClient';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    const fetchData = async () => {
+      const { data, error } = await supabase.from('users').select('*');
+      console.log(data, error);
+    };
+    fetchData();
+  }, []);
   return (
     <div className="App">
       <header className="App-header">
