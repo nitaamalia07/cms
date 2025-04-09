@@ -28,6 +28,9 @@ medpoint-cms/
 # Tools
 Typescript and React.js
 
+# Git Flow
+Git init, git remove add origin, git add, git commit -m "Innitial commit", dll. Serta branch main, develop, feature, dll.
+
 # Recording
 Link: 
 
