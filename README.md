@@ -1,3 +1,27 @@
+# Medpoint system
+adalah sebuah platform yang memungkinkan pengguna untuk melakukan berbagai jenis reservasi medis online, termasuk konsultasi dokter, tes laboratorium, tindakan medis, dan vaksinasi.
+
+# Structur Folder
+Berisikan structur folder secara umum: 
+medpoint-cms/
+├── public/                 # Static assets
+│   └── index.html
+├── src/
+│   ├── assets/             # Gambar/icon/font
+│   ├── components/         # Reusable UI components
+│   ├── pages/              # Halaman: Login, Dashboard, dsb.
+│   ├── layouts/            # Layout wrapper
+│   ├── services/           # API call ke backend
+│   ├── hooks/              # Custom React hooks
+│   ├── store/              # State management (Zustand/Redux)
+│   ├── routes/             # Routing (React Router)
+│   └── utils/              # Fungsi utilitas/helper
+├── .env
+├── tsconfig.json
+├── vite.config.ts
+├── package.json
+└── README.md
+
 # Tools
 Typescript and React.js
 
