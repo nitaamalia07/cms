@@ -1,3 +1,5 @@
+# ==> MEMBUAT STRUKTUR FOLDER
+
 # Medpoint System CMS
 adalah sebuah platform yang memungkinkan pengguna untuk melakukan berbagai jenis reservasi medis online, termasuk konsultasi dokter, tes laboratorium, tindakan medis, dan vaksinasi.
 
